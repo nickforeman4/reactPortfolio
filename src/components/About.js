@@ -2,13 +2,13 @@ import React from "react";
 function About() {
     return (
         <div>
-            <div className="container" id="About">
+            <div className="container" id="about">
                 <div className="row">
 
                     <div className="col-md-6">
                         <div className="card mt-2">
-                            <div className="card-header" style="background-color: grey;">
-                                <h2 className="card-title" style="color: white; text-align: center;">About Me</h2>
+                            <div className="card-header bg-secondary">
+                                <h2 className="card-title text-center text-light">About Me</h2>
                             </div>
                             <div className="card-body">
                                 <img src="./assets/images/SuitPic.JPG" className="card-img-top" alt="Profile Image" />

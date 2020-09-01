@@ -1,10 +1,10 @@
 import React from "react";
 function Header() {
     return (<div>
-        <header className="jumbotron bg-secondary text-center text-light">
+        <header className="jumbotron bg-secondary text-center text-light d-flex justify-content-between">
             <h1>Nicholas M. Foreman</h1>
 
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #000000;">
+            <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
         <a className="navbar-brand" href="index.html">
             <img src="./assets/images/4MAN.JPG" width="60" height="60" className="d-inline-block align-top" alt=""/>
         </a>
@@ -24,7 +24,7 @@ function Header() {
             <a className="nav-link" href="./assets/portfolio.html">Portfolio</a>
             </li>
             <li className="nav-item text-right">
-            <a className="nav-link" href="./assets/contact.html">Contact</a>
+            <a className="nav-link" href="#contactinfo">Contact</a>
             </li>
         </ul>
         </div>
