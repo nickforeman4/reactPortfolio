@@ -18,7 +18,7 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
             <li className="nav-item text-right">
-            <a className="nav-link" href="index.html">About</a>
+            <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item text-right">
             <a className="nav-link" href="./assets/portfolio.html">Portfolio</a>
